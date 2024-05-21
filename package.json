@@ -73,5 +73,10 @@
     "printWidth": 80,
     "bracketSpacing": true,
     "arrowParens": "always"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+    }
   }
 }
