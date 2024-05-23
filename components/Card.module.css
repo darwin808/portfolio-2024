@@ -1,0 +1,17 @@
+.main_div_card_with_animation {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgb(0, 0, 0);
+}
+
+.light {
+  position: absolute;
+  width: 50%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  filter: blur(100px);
+  -webkit-filter: blur(100px);
+  background-color: rgba(255, 39, 223, 0.51);
+}
